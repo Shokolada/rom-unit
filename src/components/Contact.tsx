@@ -95,7 +95,7 @@ export default function Contact() {
           {/* Map */}
           <div className="fade-in rounded-2xl overflow-hidden shadow-xl h-[400px]">
             <iframe
-              src="https://maps.google.com/maps?q=32.304,34.962&z=17&ie=UTF8&iwloc=&output=embed"
+              src="https://maps.google.com/maps?q=32.197037,35.009373&z=17&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
