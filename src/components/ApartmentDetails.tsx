@@ -8,7 +8,7 @@ const rooms = [
     id: 'bedroom',
     title: 'חדר השינה',
     icon: '🛏️',
-    image: 'https://petelpro.com/wp-content/uploads/2020/01/40291721-0-WhatsApp-Image-2019-.jpeg',
+    image: 'https://petelpro.com/wp-content/uploads/2020/08/15110960_10154212954177569_6635218798390888426_o.jpg',
     features: [
       'חדר שינה עם חלון לכיוון הגינה',
       'ארון מיטה ברוחב וחצי',
@@ -19,7 +19,7 @@ const rooms = [
     id: 'kitchen',
     title: 'המטבח',
     icon: '🍳',
-    image: 'https://petelpro.com/wp-content/uploads/2020/04/Screenshot_20200421-182702_WhatsAppBusiness-2.jpg',
+    image: 'https://petelpro.com/wp-content/uploads/2020/01/30229751-0-20170604-132230-scaled-1.jpg',
     features: [
       'דלתות בצביעה בתנור, טריקה שקטה',
       'משטח עבודה מעץ מלא',
@@ -34,7 +34,7 @@ const rooms = [
     id: 'shower',
     title: 'המקלחת',
     icon: '🚿',
-    image: 'https://petelpro.com/wp-content/uploads/2020/04/EFFECTS.jpg',
+    image: 'https://petelpro.com/wp-content/uploads/elementor/thumbs/1565171677-30202231-408x722-20161122-121624-p8y2c2ppbdpqbyqa6novogok4wxxmda429uh43d8s8.jpg',
     features: [
       'ארון אמבטיה מעץ - עבודת נגר',
       'ברז מעוצב',
@@ -47,7 +47,7 @@ const rooms = [
     id: 'garden',
     title: 'הגינה',
     icon: '🌿',
-    image: 'https://petelpro.com/wp-content/uploads/2020/08/118304521_3456686301042104_1662448574813528434_n.jpg',
+    image: 'https://petelpro.com/wp-content/uploads/2020/01/40291721-0-WhatsApp-Image-2019-.jpeg',
     features: [
       'שביל חוויתי מלא בסיגליות ואבני מדרך טבעיות',
       'מעקה עץ עם חבלי ים - עבודת אמן',

@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <Image
-        src="https://petelpro.com/wp-content/uploads/2020/08/15110960_10154212954177569_6635218798390888426_o.jpg"
+        src="https://petelpro.com/wp-content/uploads/2020/04/20200428_124525.jpg"
         alt="נוף ירוק בצופים"
         fill
         className="object-cover"
@@ -39,7 +39,7 @@ export default function Hero() {
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="https://api.whatsapp.com/send?phone=972506498965&text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%AA%D7%A2%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%93%D7%99%D7%A8%D7%94%20%D7%91%D7%A6%D7%95%D7%A4%D7%99%D7%9D"
+            href="https://api.whatsapp.com/send?phone=972549444248&text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%AA%D7%A2%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%93%D7%99%D7%A8%D7%94%20%D7%91%D7%A6%D7%95%D7%A4%D7%99%D7%9D"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#25D366] hover:bg-[#1EBE5A] text-white px-8 py-4 rounded-full text-lg font-semibold flex items-center gap-3 transition-all hover:scale-105 shadow-lg"

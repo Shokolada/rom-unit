@@ -60,6 +60,24 @@ body {
   animation: pulse-green 2s infinite;
 }
 
+/* Accessibility modes */
+.high-contrast {
+  filter: contrast(1.5);
+}
+
+.grayscale-mode {
+  filter: grayscale(1);
+}
+
+.high-contrast.grayscale-mode {
+  filter: contrast(1.5) grayscale(1);
+}
+
+.highlight-links a {
+  outline: 3px solid #FFD700 !important;
+  outline-offset: 2px;
+}
+
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;

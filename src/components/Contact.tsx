@@ -35,12 +35,12 @@ export default function Contact() {
           {/* Contact info */}
           <div className="fade-in space-y-6">
             <div>
-              <h3 className="text-2xl font-bold mb-6 text-accent-light">רואי עובדיה</h3>
+              <h3 className="text-2xl font-bold mb-6 text-accent-light">שי</h3>
 
               <div className="space-y-4">
                 {/* Phone */}
                 <a
-                  href="tel:050-6498965"
+                  href="tel:054-9444248"
                   className="flex items-center gap-4 text-lg hover:text-accent-light transition-colors"
                 >
                   <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
@@ -48,12 +48,12 @@ export default function Contact() {
                       <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
                   </div>
-                  050-6498965
+                  054-9444248
                 </a>
 
                 {/* WhatsApp */}
                 <a
-                  href="https://api.whatsapp.com/send?phone=972506498965&text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%AA%D7%A2%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%93%D7%99%D7%A8%D7%94%20%D7%91%D7%A6%D7%95%D7%A4%D7%99%D7%9D"
+                  href="https://api.whatsapp.com/send?phone=972549444248&text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%AA%D7%A2%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%93%D7%99%D7%A8%D7%94%20%D7%91%D7%A6%D7%95%D7%A4%D7%99%D7%9D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-lg hover:text-[#25D366] transition-colors"
@@ -95,7 +95,7 @@ export default function Contact() {
           {/* Map */}
           <div className="fade-in rounded-2xl overflow-hidden shadow-xl h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3378.5!2d35.0306!3d32.1789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d3e2f0c0c0c0f%3A0x0!2z16bXldem15nXnQ!5e0!3m2!1siw!2sil!4v1600000000000"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d843.5!2d35.0306!3d32.1789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d3ca79a6d55c7%3A0x86e1d31e1e5c33c3!2z16LXqNeR15kg16DXl9ecIDM5LCDXpteV16TXmded!5e0!3m2!1siw!2sil!4v1700000000000"
               width="100%"
               height="100%"
               style={{ border: 0 }}
