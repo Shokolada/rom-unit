@@ -35,7 +35,7 @@ export default function Contact() {
           {/* Contact info */}
           <div className="fade-in space-y-6">
             <div>
-              <h3 className="text-2xl font-bold mb-6 text-accent-light">שיין (מנהל)</h3>
+              <h3 className="text-2xl font-bold mb-6 text-accent-light">שי</h3>
 
               <div className="space-y-4">
                 {/* Phone */}
