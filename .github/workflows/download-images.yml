@@ -1,7 +1,11 @@
 name: Download Property Images
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - claude/practical-maxwell-WIjwX
+    paths:
+      - '.github/workflows/download-images.yml'
 
 permissions:
   contents: write
@@ -44,10 +48,11 @@ jobs:
           echo "Downloaded files:"
           ls -lah property-images/
 
-      - name: Commit images
+      - name: Commit and push images
         run: |
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git config user.name "github-actions[bot]"
+          git pull origin claude/practical-maxwell-WIjwX
           git add property-images/
-          git commit -m "chore: downloaded property images from website" || echo "Nothing to commit"
-          git push
+          git diff --cached --quiet && echo "Nothing to commit" || git commit -m "chore: downloaded property images from website"
+          git push origin claude/practical-maxwell-WIjwX
