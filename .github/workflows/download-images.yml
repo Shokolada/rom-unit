@@ -1,0 +1,53 @@
+name: Download Property Images
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  download-images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: claude/practical-maxwell-WIjwX
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Download images
+        run: |
+          mkdir -p property-images
+
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/04/20200428_124525.jpg" -o "property-images/01-exterior.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/01/30229751-0-20170604-132230-scaled-1.jpg" -o "property-images/02-view-from-apt.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/08/118326962_3456686504375417_4100241892722939164_n.jpg" -o "property-images/03-entrance-path.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/08/118347427_3456686387708762_7749563934132986187_n.jpg" -o "property-images/04-wooden-fence.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/08/118423389_3456686531042081_2740130990788480578_n.jpg" -o "property-images/05-garden.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/08/118294506_3456686611042073_5444865824601310826_n.jpg" -o "property-images/06-garden-details.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/08/118290602_3456686271042107_2860386849625259268_n.jpg" -o "property-images/07-herb-garden.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/08/118259832_3456686414375426_2180923049948443491_n.jpg" -o "property-images/08-apt-entrance.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/04/Screenshot_20200421-182635_WhatsAppBusiness.jpg" -o "property-images/09-kitchen.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/04/Screenshot_20200421-182708_WhatsAppBusiness.jpg" -o "property-images/10-dining-area.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/04/Screenshot_20200421-182819_WhatsAppBusiness.jpg" -o "property-images/11-bedroom.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/04/EFFECTS.jpg" -o "property-images/12-shower.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/08/20170601_165725-scaled.jpg" -o "property-images/13-neighborhood-view.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/08/20170604_132222-scaled.jpg" -o "property-images/14-violet-path.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/08/20170223_101705.jpg" -o "property-images/15-greenery-view.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/01/35274151-0-IMG-20180913-WA0011.jpeg" -o "property-images/16-private-yard.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/01/42586536-0-IMG-20190429-075044.jpg" -o "property-images/17-entrance-path2.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/01/1565171675-30202256-389x219-IMG-20180224-WA0022.jpeg" -o "property-images/18-balcony-view.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/08/15110960_10154212954177569_6635218798390888426_o.jpg" -o "property-images/19-bedroom-alt.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/elementor/thumbs/1565171677-30202231-408x722-20161122-121624-p8y2c2ppbdpqbyqa6novogok4wxxmda429uh43d8s8.jpg" -o "property-images/20-shower-cabinet.jpg"
+          curl -fL "https://petelpro.com/wp-content/uploads/2020/01/40291721-0-WhatsApp-Image-2019-.jpeg" -o "property-images/21-garden-alt.jpg"
+
+          echo "Downloaded files:"
+          ls -lah property-images/
+
+      - name: Commit images
+        run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add property-images/
+          git commit -m "chore: downloaded property images from website" || echo "Nothing to commit"
+          git push
