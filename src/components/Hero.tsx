@@ -32,7 +32,7 @@ export default function Hero() {
 
         {/* Price badge */}
         <div className="inline-block bg-white/15 backdrop-blur-md border border-white/30 rounded-2xl px-8 py-4 mb-10">
-          <span className="text-3xl md:text-4xl font-bold text-accent-light">2,850 &#8362;</span>
+          <span className="text-3xl md:text-4xl font-bold text-accent-light">2,900 &#8362;</span>
           <span className="text-lg mr-2 opacity-90">לחודש</span>
         </div>
 
