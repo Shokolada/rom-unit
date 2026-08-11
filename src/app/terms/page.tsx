@@ -63,7 +63,7 @@ export default function Terms() {
         <section>
           <h2 className="text-xl font-bold text-gray-800 mb-3">8. יצירת קשר</h2>
           <p>
-            לשאלות בנוגע לתנאי שימוש אלה, ניתן ליצור קשר בטלפון: 054-9444248.
+            לשאלות בנוגע לתנאי שימוש אלה, ניתן ליצור קשר בטלפון: 052-595-3928.
           </p>
         </section>
       </div>

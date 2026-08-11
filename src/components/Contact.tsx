@@ -35,12 +35,12 @@ export default function Contact() {
           {/* Contact info */}
           <div className="fade-in space-y-6">
             <div>
-              <h3 className="text-2xl font-bold mb-6 text-accent-light">שי</h3>
+              <h3 className="text-2xl font-bold mb-6 text-accent-light">סיון</h3>
 
               <div className="space-y-4">
                 {/* Phone */}
                 <a
-                  href="tel:054-944-4248"
+                  href="tel:052-595-3928"
                   className="flex items-center gap-4 text-lg hover:text-accent-light transition-colors"
                 >
                   <div className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center">
@@ -48,12 +48,12 @@ export default function Contact() {
                       <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
                   </div>
-                  054-944-4248
+                  052-595-3928
                 </a>
 
                 {/* WhatsApp */}
                 <a
-                  href="https://api.whatsapp.com/send?phone=972549444248&text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%AA%D7%A2%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%93%D7%99%D7%A8%D7%94%20%D7%91%D7%A6%D7%95%D7%A4%D7%99%D7%9D"
+                  href="https://api.whatsapp.com/send?phone=972525953928&text=%D7%94%D7%99%D7%99%2C%20%D7%90%D7%A0%D7%99%20%D7%9E%D7%AA%D7%A2%D7%A0%D7%99%D7%99%D7%9F%20%D7%91%D7%93%D7%99%D7%A8%D7%94%20%D7%91%D7%A6%D7%95%D7%A4%D7%99%D7%9D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-lg hover:text-[#25D366] transition-colors"
