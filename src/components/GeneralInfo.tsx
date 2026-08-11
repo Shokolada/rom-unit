@@ -56,7 +56,7 @@ export default function GeneralInfo() {
             </p>
             <div className="mt-6 p-4 bg-green-50 border-r-4 border-primary rounded-lg">
               <p className="text-primary-dark font-semibold">
-                המחיר כולל: דירה מרוהטת קומפלט
+                המחיר כולל: דירה מרוהטת חלקית
               </p>
               <p className="text-gray-600 text-sm mt-1">
                 לא כולל: חשמל לפי קריאה (מונה נפרד), מיסי ועד יישוב 140 &#8362; בחודש

@@ -87,7 +87,7 @@ export default function Contact() {
             <div className="mt-8 p-6 bg-white/10 rounded-2xl backdrop-blur-sm">
               <div className="text-3xl font-bold text-accent-light mb-1">2,850 &#8362; לחודש</div>
               <p className="text-white/70 text-sm">
-                מרוהטת קומפלט | לא כולל חשמל ומיסי ועד
+                מרוהטת חלקית | לא כולל חשמל ומיסי ועד
               </p>
             </div>
           </div>
